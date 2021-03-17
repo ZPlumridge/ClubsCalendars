@@ -1,0 +1,67 @@
+<!-- use Girls Who Code gmail account for calendar-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHS Clubs</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <body>
+
+    <!-- Some stuff to add or change: organize navigation bar and updates by divs -->
+
+    <nav>
+      <!--you can use nav to refer specifically to all nav bars on a website, copy and paste this into each new page-->
+      <!-- We may want to have a page per section instead of a page per club, to speed it all up.-->
+    <img id="eagle"src="shsLogo.png"><br>
+      <a href="index.html"><button>Home</button><a/><br>
+      <h4>STEM</h4>
+      <a href="clubSites/girlsWhoCode.html"><button>Girls Who Code</button></a><br>
+      <a href="clubSites/mathTeam.html"><button>Math Team</button></a><br>
+      <a href="clubSites/stemToSchools.html"><button>Stem2Schools</button></a><br>
+      <a href="clubSites/scienceOlympiad.html"><button>Science Olympiad</button></a>
+      <br>
+      <h4>Business & Finance</h4>
+      <a href="clubSites/startup.html"><button>Startup</button></a>
+      <br>
+      <a href="clubSites/deca.html"><button>DECA</button></a>
+      <a href=""><button></button></a>
+      <a href=""><button></button></a>
+      <a href=""><button></button></a>
+
+      <h4>Volunteering</h4>
+      
+    </nav>
+  <div class="main">
+    <h1 id="title">Sharon High School Clubs</h1>
+    <h2>Updates</h2>
+    <div class="updates">
+      <h3>Super Important Update!</h3>
+      <small><em>3/3/21</em></small>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <h2>Calendar</h2>
+    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23781c1f&amp;ctz=America%2FNew_York&amp;src=Y184ZzJsdGE0MGc4ZTVtY21naDVkaTlkN2c3Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%234285F4&amp;showTitle=0&amp;showPrint=0" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+ 
+    <script src="script.js"></script>
+
+    <footer>
+      <!--more nav bar, contact us, etc.  -->
+      <!-- SHS, SPS websites, schoology-->
+      <form>
+        <p>Update club information</p>
+        <label for="clubNameForm">Club name: </label>
+        <input id="clubNameForm" type="text"> <br>
+        <label for="clubUpdateForm">What's changed? What do you want people to know? (When you meet, where you meet, meeting cancelled for a week, bring materials, plans for next time, etc.)</label> <br>
+        <input id="clubUpdateForm" type="text">
+        <button id="clubChangeSubmit" type="submit">Submit</button>
+
+      </form>
+    </footer>
+ </div>
+  </body>
+  
+</html>

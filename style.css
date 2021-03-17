@@ -1,0 +1,103 @@
+/*SHS website colors: background=white, accent=maroon, text=white on maroon or smoke on white*/
+/*Some stuff to add or change: fonts (can be from Google Fonts), differentiate h1/h2/etc. by more than size, floating headers/images*/
+
+body{
+  background-color:#f8f8f8;
+  padding: 10px;
+  font-family: sans-serif;
+}
+button {
+  background-color: #333c4e;
+  border: none;
+  font-size: 18px;
+  padding: 4px;
+  margin: 3px;
+  color: white;
+  border-radius: 4px;
+}
+
+footer{
+  background-color: #7a1c20;
+  color: white;
+  padding: 10px;
+  margin: 0px;
+}
+
+.updates {
+  margin-right: 50px;
+  margin-left:50px;
+  margin-top:0px;
+  margin-bottom: 0px;
+  border-radius: 8px;
+  color: white;
+  background-color: maroon;
+  padding: 10px;
+}
+.updates h3 {
+  color: gold;
+  padding: 0px;
+  margin: 0px;
+  font-size: 24px;
+}
+.updates p {
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
+}
+.updates small {
+  margin-bottom: 5px;
+}
+nav h4 {
+  color: maroon;
+  font-size: 20px;
+  margin-bottom:0px;
+}
+#title {
+  text-align: center;
+}
+.calendar {
+  background-color:gray;
+  /*This doesn't actually do anything once the calendar loads, the calendar may register as an image, but we may be able to change how the calendar looks*/
+}
+
+nav {
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 10px;
+  overflow-x: hidden;
+  padding-right: 8px 0;
+  border-right: solid maroon 2px;
+  height: 100%;
+}
+#eagle {
+  width: 190px;
+  margin-right: 10px;
+}
+.main {
+  margin-left: 200px;
+  padding: 0px 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    position: relative;
+    border-right: none;
+    border-bottom: solid maroon 2px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    left: 0px;
+  }
+  .main {
+    margin-left:0px;
+  }
+  .updates {
+    margin: 10px;
+  }
+  .calendar {
+  
+    max-width: 100%;
+  }
+}
