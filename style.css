@@ -4,7 +4,7 @@
 body{
   background-color:#f8f8f8;
   padding: 10px;
-  font-family: sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 button {
   background-color: #333c4e;
@@ -47,7 +47,7 @@ footer{
 .updates small {
   margin-bottom: 5px;
 }
-nav h4 {
+nav h4 a {
   color: maroon;
   font-size: 20px;
   margin-bottom:0px;
@@ -55,13 +55,17 @@ nav h4 {
 #title {
   text-align: center;
 }
+.subtitle {
+  text-align: center;
+  color: gray
+}
 .calendar {
   background-color:gray;
   /*This doesn't actually do anything once the calendar loads, the calendar may register as an image, but we may be able to change how the calendar looks*/
 }
 
 nav {
-  width: 200px;
+  width: 220px;
   position: fixed;
   z-index: 1;
   top: 0px;
@@ -72,11 +76,11 @@ nav {
   height: 100%;
 }
 #eagle {
-  width: 190px;
+  width: 210px;
   margin-right: 10px;
 }
 .main {
-  margin-left: 200px;
+  margin-left: 220px;
   padding: 0px 10px;
 }
 

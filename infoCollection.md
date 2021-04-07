@@ -55,4 +55,3 @@ Team Rival - ?
 Next Generation - afternoon EB, what day?
 Serving for Sharon -  wed 11:30-12
 SportsHi - twice a month, flexible meetings
-Film club - fri 3:30-4
