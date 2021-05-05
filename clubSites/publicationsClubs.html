@@ -4,34 +4,89 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://clubscalendars.zplumridge.repl.co/style.css" rel="stylesheet" type="text/css" />
   </head>
   
   <body>
+    <a name="backtotop"></a>
     <nav><!--you can use nav to refer specifically to all nav bars on a website, copy and paste this into each new page-->
-      <img id="eagle"src="https://replit.com/@ZPlumridge/ClubsCalendars?from=notifications#shslogo2.png">
-      <a href="https://clubscalendars.zplumridge.repl.co/index.html"><button>Home</button><a/>
-      <h4><a href="stemClubs.html">STEM</a></h4>
-      <h4><a href="businessClubs.html">Business & Finance</a></h4>
-      <h4><a href="volunteeringClubs.html">Volunteering</a></h4>
+      <a href="https://clubscalendars.zplumridge.repl.co/index.html"><img id="eagle" src="https://clubscalendars.zplumridge.repl.co/shsLogo.png"></a><br>
+      <h4><a href="businessClubs.html">Business</a></h4>
+      <h4><a href="creativeClubs.html">Creative</a></h4>
       <h4><a href="governmentClubs.html">Government</a></h4>
-      <h4><a href="clubSites/creativeClubs.html">Creative</a></h4>
-      <h4><a href="clubSites/publicationsClubs.html">Publications</a></h4>
+      <h4><a href="publicationsClubs.html">Publications</a></h4>
+      <h4><a href="schoolClubs.html">School Leadership</a></h4>
+      <h4><a href="stemClubs.html">STEM & Competition</a></h4>
+      <h4><a href="volunteeringClubs.html">Volunteering</a></h4>
+      <h4><a href="miscClubs.html">Miscellaneous</a></h4>
      <!-- <h4><a href="clubSites/__insert name hereCasual/Safe-space/miscClubs.html"></a></h4> -->
       <h4><a href="clubSites/schoolClubs.html">School Leadership</a></h4>
 
     </nav>
     <div class="main">
-
-      <h1>Clubs on this page: </h1><!--add in-site links for clubs on this page-->
+      <h1>Publications</h1>
+      <h1>Clubs on this page: </h1>
+      <a href="#euphony"><button>DECA</button></a>
+      <a href="#radio"><button>Economics</button></a>
+      <a href="#talon"><button>Startups</button></a>
+      <a href="#yearbook"><button>Stocks</button></a>
       
 
-      <h1>Club name here</h1>
-      <p>Dates</p>
-      <p>Times</p>
-      <p>Place</p>
-      <p>Contact</p>
+      <h1 id="euphony">Euphony</h1>
+      <p>EB</p>
+      <p>Zoom</p>
+      <p><a href="euphonymagazine.org">euphonymagazine.org</a></p>
+      <p>Contact: <br> Dana Blatte <a href="mailto:dblatte2022@sharonschools.net">dblatte2022@sharonschools.net</a> <br>
+      Nathaniel Waterman <a href="mailto:nwaterman2022@sharonschools.net">nwaterman2022@sharonschools.net</a></p>
+      <p>Interested in creative writing or art? Share your creativity. Get noticed.</p>
+
+      <h1 id="radio">Radio Club</h1>
+      <p>Thursdays</p>
+      <p>3pm-3:30pm or 3pm-4pm</p>
+      <p>Zoom <br>
+      Meeting ID: 856 8687 6435 <br>
+      PW: radioclub</p>
+      <p>Email: <a href="mailto:radioshs@gmail.com">radioshs@gmail.com</a></p>
+      <p>We are looking for confident public speakers or presenters who would be comfortable interviewing people around the school about local events. We are trying to create an online radio station for SHS. It will feature podcasts about the school community. Have ideas? Join the club.</p>
+
+      <h1 id="talon">SHS Talon</h1>
+      <p>Mondays & Fridays</p>
+      <p>Eagle Block</p>
+      <p>Zoom: ID: 863 7248 9647 Password: shstalon</p>
+      <p>Email: <a href="mailto:shstalon@sharonschools.net">shstalon@sharonschools.net</a></p>
+      <p>Instagram, Facebook, Twitter: @shstalon</p>
+
+      <h1 id="yearbook">Marsengold Yearbook</h1>
+      <p>Mondays</p>
+      <p>4-4:30 pm</p>
+      <p>Zoom</p>
+      <p>Contact: <br>
+      Yvette Nau <a href="mailto:ynau2021@sharonschools.net">ynau2021@sharonschools.net</a> <br>
+      Ms. Fox <a href="mailto:mfox@sharonschools.net">mfox@sharonschools.net</a> <br>
+      Ms. Garr <a href="egarr@sharonschools.net">egarr@sharonschools.net</a></p>
+      <p>Work with an online graphic editing software, write articles, and take/collect photos of school activities.</p>
     </div>
+
+    <footer>
+      <!--add more nav bar, contact us, etc.  -->
+      <!-- SHS, SPS websites, schoology-->
+      <!-- then copy this footer to other pages-->
+      <form>
+        <h4>Update club information</h4>
+        <label for="nameForm">Your name: </label>
+        <input id="nameForm" type="text"><br><br>
+        <label for="clubNameForm">Club name: </label> <br>
+        <input id="clubNameForm" type="text"> <br> <br>
+        <label for="clubUpdateForm"><em>What's changed? What do you want people to know? (When you meet, where you meet, meeting cancelled for a week, bring materials, plans for next time, etc.)</em></label> <br>
+        <textarea id="clubUpdateForm" type="text" rows="3"> </textarea> <br>
+        <button id="clubChangeSubmit" type="submit">Submit</button>
+
+      </form>
+      <br>
+      <a href="https://hs.sharonschools.net/en-US">Sharon High School Website</a>
+      <a href="https:www.sharon.schoology.com">Schoology</a>
+      <p><em>This website is brought to you by the Girls Who Code club of Sharon High School, 2020-2021.</em></p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>

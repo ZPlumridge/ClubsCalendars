@@ -14,6 +14,12 @@ button {
   margin: 3px;
   color: white;
   border-radius: 4px;
+  transition-duration:0.4s;
+}
+
+button:hover {
+  background-color: goldenrod;
+  color: #333c4e;
 }
 
 footer{
@@ -21,6 +27,14 @@ footer{
   color: white;
   padding: 10px;
   margin: 0px;
+}
+
+footer a{
+  color: gold;
+}
+
+footer a:hover{
+  color: white;
 }
 
 .updates {
@@ -115,7 +129,4 @@ nav {
   display: block;
   background-color: gold;
   color: maroon;
-}
-button::hover{
-  background-color: goldenrod;
 }
