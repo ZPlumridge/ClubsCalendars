@@ -1,7 +1,7 @@
 /*SHS website colors: background=white, accent=maroon, text=white on maroon or smoke on white*/
 /*Some stuff to add or change: fonts (can be from Google Fonts), differentiate h1/h2/etc. by more than size, floating headers/images*/
 
-body{
+body {
   background-color:#f8f8f8;
   padding: 10px;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -22,7 +22,7 @@ button:hover {
   color: #333c4e;
 }
 
-footer{
+footer {
   background-color: #7a1c20;
   color: white;
   padding: 10px;
@@ -37,11 +37,11 @@ footer a:hover{
   color: white;
 }
 
-.updates {
-  margin-right: 50px;
-  margin-left:50px;
-  margin-top:0px;
-  margin-bottom: 0px;
+.update {
+  margin-right: 10%;
+  margin-left:10%;
+  margin-top:10px;
+  margin-bottom: 10px;
   border-radius: 8px;
   color: white;
   background-color: maroon;
@@ -58,9 +58,10 @@ footer a:hover{
   margin: 0px;
   font-size: 16px;
 }
-.updates small {
+.update small {
   margin-bottom: 5px;
 }
+
 nav h4 a {
   color: maroon;
   font-size: 20px;
@@ -98,7 +99,7 @@ nav {
   padding: 0px 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   nav {
     position: relative;
     border-right: none;
@@ -115,7 +116,6 @@ nav {
     margin: 10px;
   }
   .calendar {
-  
     max-width: 100%;
   }
 }
