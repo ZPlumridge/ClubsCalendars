@@ -10,7 +10,7 @@
   }
 });*/
 
-window.addEventListener( "load", function () {
+/*window.addEventListener( "load", function () {
   function sendData() {
     const XHR = new XMLHttpRequest();
 
@@ -43,4 +43,12 @@ window.addEventListener( "load", function () {
 
     sendData();
   } );
-} );
+} );*/
+
+function validateForm() {
+  var x = document.forms["updatesForm"]["fname"].value;
+  if (x == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+}

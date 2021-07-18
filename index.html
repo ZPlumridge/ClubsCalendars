@@ -12,8 +12,6 @@
 <body>
   <a name="backtotop"></a>
 	<nav>
-		<!--you can use nav to refer specifically to all nav bars on a website, copy and paste this into each new page-->
-		<!-- We may want to have a page per section instead of a page per club, to speed it all up.-->
 		<a href="index.html"><img id="eagle" src="shsLogo.png"></a><br>
     <h4><a href="clubSites/businessClubs.html">Business</a></h4>
     <h4><a href="clubSites/creativeClubs.html">Creative</a></h4>
@@ -47,20 +45,21 @@
       <!--add more nav bar, contact us, etc.  -->
       <!-- SHS, SPS websites, schoology-->
       <!-- then copy this footer to other pages-->
-      <form id="updateForm">
+      <form id="updatesForm" action="/updates.php" method="post">
         <h4>Update club information</h4>
         <label for="nameForm">Your name: </label>
-        <input id="nameForm" type="text"><br><br>
+        <input id="nameForm" type="text" name="user_name"><br><br>
         <label for="clubNameForm">Club name: </label> <br>
-        <input id="clubNameForm" type="text"> <br> <br>
-        <label for="clubUpdateForm"><em>What's changed? What do you want people to know? (When you meet, where you meet, meeting cancelled for a week, bring materials, plans for next time, etc.)</em></label> <br>
-        <textarea id="clubUpdateForm" type="text" rows="3"> </textarea> <br>
+        <input id="clubNameForm" type="text" name="user_club"> <br> <br>
+        <label for="clubUpdateForm"><em>What's changed? What do you want people to know?</em></label> <br>
+        <textarea id="clubUpdateForm" type="text" rows="3" name="user_update"> When you meet, where you meet, meeting cancelled for a week, bring materials, plans for next time, etc. </textarea> <br>
         <button id="clubChangeSubmit" type="submit">Submit</button>
 
       </form>
       <br>
-      <a href="https://hs.sharonschools.net/en-US">Sharon High School Website</a>
-      <a href="https:www.sharon.schoology.com">Schoology</a>
+
+      <a href="https://hs.sharonschools.net/en-US"> Sharon High School Website </a>
+      <a href="https:www.sharon.schoology.com"> Schoology </a>
       <p><em>This website is brought to you by the Girls Who Code club of Sharon High School, 2020-2021.</em></p>
     </footer>
   </div>
